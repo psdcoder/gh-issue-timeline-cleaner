@@ -1,0 +1,13 @@
+{
+  "name": "GH Issue Timeline Cleaner",
+  "version": "1.0",
+  "description": "Hide commits in github issue timeline",
+  "content_scripts": [{
+    "matches": ["*://github.com/**/issues/*"],
+    "js": ["userscript.js"]
+  }],
+  "icons": {
+    "16": "icon.png"
+  },
+  "manifest_version": 2
+}
